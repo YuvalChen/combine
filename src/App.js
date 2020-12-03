@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         כן מאיה הריח של הרויאל ביץ אפרים
+         מה עכשיו?
         </p>
       </header>
     </div>

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import ReactS3 from 'react-s3';
+import './Upload.css';
 
 const config = {
     bucketName: 'combine-bucket',
@@ -22,16 +23,14 @@ function Upload() {
 
     return (
         <form onSubmit={handleClick}>
-            <label>
-                Upload file:
+            <label className="uploadFileText">
                 <input type='file' ref={fileInput} />
             </label>
-            <br />
-            <button type='submit'>Upload</button>
+            
+            
+            <button type='submit' className="uploadButton">Upload</button>
         </form>
-
     )
-
 }
 
 export default Upload;
